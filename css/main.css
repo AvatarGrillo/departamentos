@@ -1,0 +1,102 @@
+
+
+/*Estilo Día*/
+@media (min-width: 701px){
+	body{
+		background-color: #71a6d2;
+		}
+
+	.row{
+		content:'';
+		display: block;
+		clear: both;
+		margin: 0 auto;
+		}
+
+	.col-1{width:20%;}
+	.col-offset-1{margin-left:20%;}
+
+	.flat{
+		background-color: #CD6155;
+	  	width: 100px;
+	  	height: 100px;
+	  	float: left;
+	  	
+		  }
+
+	.window{
+	  	display:inline-block;
+		background-color: #AED6F1;
+		width: 20px;
+		height: 20px;
+		margin-left: 20px;
+		margin-top: 20px;
+		  }
+
+	.pasto{
+		background-color: #40FF00;
+		height: 10px;
+		position: relative;
+			}
+
+
+}
+
+/*Estilo Noche*/
+  @media (max-width: 700px) {
+  	
+  	body {
+    	background-color: #1c2841;
+		}
+  
+	.col-1{width:80%;}
+	.col-offset-1{margin-left:50%;}
+
+	.flat{
+		background-color: #CD6155;
+	  	width: 100px;
+	  	height: 100px;
+	  
+  	
+ 		}
+
+	.window{
+	  	display:inline-block;
+		background-color: #F7DC6F;
+		width: 20px;
+		height: 20px;
+		margin-left: 20px;
+		margin-top: 20px;
+	  		}
+
+	.pasto{
+		background-color: #40FF00;
+		height: 10px;
+		position: relative;
+			}
+
+	.arbolito{
+		position: relative;
+	}
+
+	.hojas{
+		width: 50px;
+		height: 50px;
+		background-color: green;
+	}
+
+	.tonco{
+		width: 15px;
+		height: 50px;
+		background-color: brown;
+
+
+	}
+
+
+}
+
+
+
+
+
